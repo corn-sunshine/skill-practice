@@ -11,6 +11,10 @@
     <modules>
         <module>spring-boot-mapstruct</module>
         <module>spring-boot-flyway</module>
+        <module>spring-boot-elasticsearch</module>
+        <module>spring-boot-swagger</module>
+        <module>spring-boot-scheduled</module>
+        <module>spring-boot-security</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -25,6 +29,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
+        <cn.hutool>5.7.17</cn.hutool>
     </properties>
 
     <dependencies>
@@ -56,6 +61,12 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.12.0</version>
+        </dependency>
+        <!--   hutool工具类   <-->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>${cn.hutool}</version>
         </dependency>
     </dependencies>
 

@@ -1,13 +1,13 @@
-package com.elwood.flyway;
+package com.elwood.es;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FlywayApplication {
+public class EsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(FlywayApplication.class);
+        SpringApplication.run(EsApplication.class, args);
     }
 
 }
